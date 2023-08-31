@@ -3,7 +3,7 @@ function getRandomNumber(min, max) {
   }
   
   export default function ActorCard({ actor }) {
-    let num = getRandomNumber(250, 400);
+    let num = getRandomNumber(150, 400);
   
     return (
       <div
